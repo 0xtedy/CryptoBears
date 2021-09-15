@@ -6,7 +6,7 @@ In this repo you will find the CryptoBears [artwork](https://github.com/ongmorel
 
 __CryptoBears are 100 bears in pixelart generated randomly with python.__   
 __They are all differents!__  
-![gif](https://github.com/ongmorel/CryptoBears/tree/main/CryptoBearsGif)  
+<img src="https://github.com/ongmorel/CryptoBears/tree/main/CryptoBearsGif.gif" alt="gif" width="300"/>
 
 # Technical Overview
 
