@@ -1,6 +1,12 @@
-# Crypto-bears repo
+# CryptoBears repo
 This is the repository for the cennznet grant => https://gitcoin.co/issue/cennznet/grants/9/100026471    
-In this repo you will find the CryptoBears [artwork](https://github.com/ongmorel/CryptoBears/tree/main/100_bears_generated), the different traits possible and an overview of the techniques used to create the CryptoBears ⬇below ⬇.   
+In this repo you will find the CryptoBears [artwork](https://github.com/ongmorel/CryptoBears/tree/main/100_bears_generated), the different [traits](https://github.com/ongmorel/CryptoBears/tree/main/differenttraitsbytype.md) possible, a presentation and an overview of the techniques used to create the CryptoBears ⬇below ⬇.   
+
+# Presentation
+
+__CryptoBears are 100 bears in pixelart generated randomly with python.__   
+__They are all differents!__  
+![gif](https://github.com/ongmorel/CryptoBears/tree/main/CryptoBearsGif)  
 
 # Technical Overview
 
@@ -163,10 +169,10 @@ Special thanks to :
 
 * HammerMikk#5766 for answer to me question about the grant  
 * https://twitter.com/NFTBirds for inspiration and for make awesome opensource project  
-* Guido van Rossum for created PYTHON  
 * Cennznet for the opportunity  
 
 Below i show you my top 10 CryptoBears in the 100 generated :  
+
 1. An astrobear with a cross , look so rare !  
 <img src="https://github.com/ongmorel/CryptoBears/blob/main/100_bears_generated/BearIndex89.png" alt="basicbear" width="300"/> 
 2. Evidently the rainbow bear  
@@ -179,11 +185,13 @@ Below i show you my top 10 CryptoBears in the 100 generated :
 <img src="https://github.com/ongmorel/CryptoBears/blob/main/100_bears_generated/BearIndex93.png" alt="basicbear" width="300"/>
 6. With the panda glasses he look like a real panda!  
 <img src="https://github.com/ongmorel/CryptoBears/blob/main/100_bears_generated/BearIndex67.png" alt="basicbear" width="300"/>
-7. FRANCE!  
-<img src="https://github.com/ongmorel/CryptoBears/blob/main/100_bears_generated/BearIndex63.png" alt="basicbear" width="300"/>
-8. The cross look so cool  
+7. He cross look so cool with this fur 
 <img src="https://github.com/ongmorel/CryptoBears/blob/main/100_bears_generated/BearIndex24.png" alt="basicbear" width="300"/>
+8. Sorry but i love so much the cross
+<img src="https://github.com/ongmorel/CryptoBears/blob/main/100_bears_generated/BearIndex90.png" alt="basicbear" width="300"/>
 9. White astrobear with a BIG smile!  
 <img src="https://github.com/ongmorel/CryptoBears/blob/main/100_bears_generated/BearIndex28.png" alt="basicbear" width="300"/>
 10. Love astrobear so much and extra he come from nederland  
 <img src="https://github.com/ongmorel/CryptoBears/blob/main/100_bears_generated/BearIndex13.png" alt="basicbear" width="300"/>
+
+If you want to support me follow me on [twitter](https://twitter.com/cryptotedybeir)
