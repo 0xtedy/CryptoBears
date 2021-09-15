@@ -22,7 +22,6 @@ We say its pseudo random cause we use seed() for randomize traits:
         schem = "astrobearschem"
     else:
         schem = "rainbowbearschem"
-
     seedb = randint(1, 1000)
     seed(seedb)
 '''
