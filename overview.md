@@ -12,7 +12,7 @@ The entire project is write in __python__ and use several library :
 We say its pseudo random cause we use seed() for randomize traits:
 *exemple of how the typeofbear is choose*
 
-'''python
+```python
  typeofbearprob = randint(1, 1000)  
     if typeofbearprob <= 700:
         schem = "basicbearschem"
@@ -24,7 +24,7 @@ We say its pseudo random cause we use seed() for randomize traits:
         schem = "rainbowbearschem"
     seedb = randint(1, 1000)
     seed(seedb)
-'''
+```
 
 The initial seed is the blocknumber when i have started the project.
 
@@ -38,7 +38,7 @@ Like you see above they are 4 different bear schema :
 The schema are numpy array like this :
 *this is the basicbearschema*
 
-'''python
+```python
 
         [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg,],
         [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg,],
@@ -74,4 +74,4 @@ The schema are numpy array like this :
         [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg,],
         [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg,],
         [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg,]
-'''
+```
