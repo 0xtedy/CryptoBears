@@ -6,6 +6,7 @@ __tailmutation__ =  tail who don't have the same color than the bear
 __rainuremutation__ = the 2 rainure dosen't have the same colors  
 __eyemutation__ = the 2 eyes dosen't have the same colors  
 __godeyes__ = eyes in blue god   
+PS: I'm sorry but the New Zealand flag is too big can't put it in astrobear  
 
 # If this project win a prize i will calculate and write all the proba for all the differents traits!
 
