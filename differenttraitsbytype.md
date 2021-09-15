@@ -1,85 +1,85 @@
 # All the possible attributes of bears by type of bear
 Explanation of special traits:  
 
-__colour__ = random color
-__tailmutation__ =  tail who don't have the same color than the bear
-__rainuremutation__ = the 2 rainure dosen't have the same colors
-__eyemutation__ = the 2 eyes dosen't have the same colors
-__godeyes__ = eyes in blue god 
+__colour__ = random color  
+__tailmutation__ =  tail who don't have the same color than the bear  
+__rainuremutation__ = the 2 rainure dosen't have the same colors  
+__eyemutation__ = the 2 eyes dosen't have the same colors  
+__godeyes__ = eyes in blue god   
 
 # If this project win a prize i will calculate and write all the proba for all the differents traits!
 
-*basicbear  
+* basicbear  
 
-    *fur: colour
+    * fur: colour
 
-    *mouth: mouth2 / mouth3 / nomouth / bigmouth / cigare
+    * mouth: mouth2 / mouth3 / nomouth / bigmouth / cigare
 
-    *hear: colour / cross
+    * hear: colour / cross
 
-    *tail: tailmutation / colour / exist?
+    * tail: tailmutation / colour / exist?
 
-    *eyes: colour / godeyes / eyesmutations
+    * eyes: colour / godeyes / eyesmutations
 
-    *background: colour
-
-
-
-*panda  
-
-    *fur: colour
-
-    *rainure: colour / rainuremutation
-
-    *mouth: mouth2 / mouth3 / nomouth / bigmouth / cigare
-
-    *hear: colour / cross
-
-    *tail: tailmutation / colour / exist?
-
-    *eyes: colour / godeyes / eyesmutations
-
-    *background: colour
+    * background: colour
 
 
 
-*astrobear  
+* panda  
 
-    *fur: colour
+    * fur: colour
 
-    *mouth: mouth2 / mouth3 / nomouth / bigmouth
+    * rainure: colour / rainuremutation
 
-    *hear: colour / cross
+    * mouth: mouth2 / mouth3 / nomouth / bigmouth / cigare
 
-    *tail: tailmutation / colour / exist?
+    * hear: colour / cross
 
-    *eyes: colour / godeyes / eyesmutations
+    * tail: tailmutation / colour / exist?
 
-    *flag: nationality 
+    * eyes: colour / godeyes / eyesmutations
 
-    *background: spacecolour
+    * background: colour
 
 
 
-*rainbowbear  
+* astrobear  
+
+    * fur: colour
+
+    * mouth: mouth2 / mouth3 / nomouth / bigmouth
+
+    * hear: colour / cross
+
+    * tail: tailmutation / colour / exist?
+
+    * eyes: colour / godeyes / eyesmutations
+
+    * flag: nationality 
+
+    * background: spacecolour
+
+
+
+* rainbowbear  
     
-    *fur: colour
+    * fur: colour
 
-    *mouth: mouth2 / mouth3 / nomouth / bigmouth / cigare
+    * mouth: mouth2 / mouth3 / nomouth / bigmouth / cigare
 
-    *hear: colour / cross
+    * hear: colour / cross
 
-    *tail: tailmutation / colour / exist?
+    * tail: tailmutation / colour / exist?
 
-    *eyes: colour / godeyes / eyesmutations
+    * eyes: colour / godeyes / eyesmutations
 
-    *background: colour
+    * background: colour
 
-    *fur1: colour
+    * fur1: colour
 
-    *fur2: colour
+    * fur2: colour
 
-    *fur3: colour
+    * fur3: colour
 
-    *fur4: colour
+    * fur4: colour
 
