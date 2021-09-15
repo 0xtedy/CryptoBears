@@ -2,42 +2,19 @@
 
 This is the technical overview of how the bears are generated , don't hesitate to fork this project !
 
-The entire project is write in __python__ and use several library :
+The entire project is write in __python__ and use several library :  
 
 * [NUMPY](https://numpy.org/) for the array
 * [PIL](https://pillow.readthedocs.io/en/stable/) for the image render  
 * __OS__ for the path
 * __RANDOM__ for the pseudo random generation (we use seed)
 
-We say its pseudo random cause we use seed() for randomize traits:
-*exemple of how the typeofbear is choose*
+So lets dive in it!
 
-```python
- typeofbearprob = randint(1, 1000)  
-    if typeofbearprob <= 700:
-        schem = "basicbearschem"
-    elif typeofbearprob <= 900:
-        schem = "pandaschem"
-    elif typeofbearprob <= 960:
-        schem = "astrobearschem"
-    else:
-        schem = "rainbowbearschem"
-    seedb = randint(1, 1000)
-    seed(seedb)
-```
+All the bears are a numpy array with one word is equal to one pixel (bg = background, sk = skin...) :  
 
-The initial seed is the blocknumber when i have started the project.
-
-Like you see above they are 4 different bear schema :
-
-1. basicbear
-2. panda
-3. astrobear
-4. rainbowbear
-
-The schema are numpy array like this :
-*this is the basicbearschema*
-
+*for exemple this is the basicbearschema*
+ <font size="1">
 ```python
 
         [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg,],
@@ -75,3 +52,64 @@ The schema are numpy array like this :
         [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg,],
         [bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg, bg,]
 ```
+</font>
+
+But certain traits override other traits , so it's more simple to just create several schema.  
+That's why we create 4 schema :  
+
+1. basicbear  
+<img src="https://github.com/ongmorel/crypto-bears-cennznet/blob/main/100_bears_generated/BearIndex5.png" alt="basicbear" width="200"/>
+2. panda  
+<img src="https://github.com/ongmorel/crypto-bears-cennznet/blob/main/100_bears_generated/BearIndex34.png" alt="panda" width="200"/>
+3. astrobear  
+<img src="https://github.com/ongmorel/crypto-bears-cennznet/blob/main/100_bears_generated/BearIndex28.png" alt="astrobear" width="200"/>
+4. rainbowbear  
+<img src="https://github.com/ongmorel/crypto-bears-cennznet/blob/main/100_bears_generated/BearIndex48.png" alt="rainbowbear" width="200"/>
+
+
+
+
+We say its pseudo random cause we use seed() for randomize traits :  
+*exemple of how the typeofbear is choose*
+
+```python
+ typeofbearprob = randint(1, 1000)  
+    if typeofbearprob <= 700:
+        schem = "basicbearschem"
+    elif typeofbearprob <= 900:
+        schem = "pandaschem"
+    elif typeofbearprob <= 960:
+        schem = "astrobearschem"
+    else:
+        schem = "rainbowbearschem"
+    seedb = randint(1, 1000)
+    seed(seedb)
+```
+
+The initial seed is the blocknumber when i have started the project.
+
+Like you see above they are 4 different bear schema :
+
+1. basicbear
+2. panda
+3. astrobear
+4. rainbowbear
+
+The schemas are a numpy array with one word is equal to one pixel (bg = background, sk = skin...) :  
+
+
+After the schema is chosen we use [PIL](https://pillow.readthedocs.io/en/stable/) for render and save the numpy array in a png image :  
+
+```python
+    array = np.array(typeofbear, dtype=np.uint8)
+    new_image = Image.fromarray(array)
+    new_image = new_image.resize(dimensions, resample=0)
+
+    //choose the typeofbear array and resize it
+
+    imagename = dirname + '/bears_images/' + "BearIndex" + (str(index)) + '.png'
+    new_image.save(imagename)
+    //save the images in the bears_images directory
+```
+
+
