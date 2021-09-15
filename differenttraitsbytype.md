@@ -10,7 +10,7 @@ PS: I'm sorry but the New Zealand flag is too big can't put it in astrobear
 
 # If this project win a prize i will calculate and write all the proba for all the differents traits!
 
-* basicbear <img src="https://github.com/ongmorel/CryptoBears/blob/main/100_bears_generated/BearIndex5.png" alt="basicbear" width="50"/>    
+* basicbear  
 
     * fur: colour
 
@@ -26,7 +26,7 @@ PS: I'm sorry but the New Zealand flag is too big can't put it in astrobear
 
 
 
-* panda <img src="https://github.com/ongmorel/CryptoBears/blob/main/100_bears_generated/BearIndex34.png" alt="panda" width="50"/>  
+* panda  
 
     * fur: colour
 
@@ -44,7 +44,7 @@ PS: I'm sorry but the New Zealand flag is too big can't put it in astrobear
 
 
 
-* astrobear <img src="https://github.com/ongmorel/CryptoBears/blob/main/100_bears_generated/BearIndex28.png" alt="astrobear" width="50"/>
+* astrobear  
 
     * fur: colour
 
@@ -62,7 +62,7 @@ PS: I'm sorry but the New Zealand flag is too big can't put it in astrobear
 
 
 
-* rainbowbear <img src="https://github.com/ongmorel/CryptoBears/blob/main/100_bears_generated/BearIndex48.png" alt="rainbowbear" width="50"/>
+* rainbowbear  
     
     * fur: colour
 
