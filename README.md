@@ -194,4 +194,4 @@ Below i show you my top 10 CryptoBears in the 100 generated :
 10. Love astrobear so much and extra he come from nederland  
 <img src="https://github.com/ongmorel/CryptoBears/blob/main/100_bears_generated/BearIndex13.png" alt="basicbear" width="300"/>
 
-If you want to support me follow me on [twitter](https://twitter.com/cryptotedybeir)
+We Love Bears ♥️
